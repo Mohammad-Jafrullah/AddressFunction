@@ -1,0 +1,42 @@
+.setting-main-body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.setting-options{
+    width: 80vw;
+    height: 60px;
+    background-color: rgb(104, 245, 48);
+    margin-top: 30px;
+    border: none;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.setting-options .fa-chevron-right{
+    font-size: 1.2rem;
+    color: black;
+    margin-right: 60px;
+}
+.setting-options .option{
+    width: 60vw;
+    height: 60px;
+    background-color: #fff;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 60px;
+    box-shadow: 1px 1px 5px #727272;
+    display: flex;
+    align-items: center;
+}
+.setting-options .option a,i{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: black;
+    margin-left: 30px;
+}
